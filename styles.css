@@ -1,0 +1,215 @@
+/*Reset Style*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*font-size: 100%;*/
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*************************************/
+body {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main-navbar {
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+}
+
+.navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    color: white;
+    border: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 80%;
+    color: white;
+    padding: 1.1em 1em;
+}
+.nav-item:hover{
+    border-top: 1px solid #4bcaff;
+
+}
+.nav-item:hover a{
+    color: #4bcaff !important;
+}
+
+#main-navbar .navbar-nav .nav-item .nav-link.active, #main-navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136;
+}
+
+#home{
+    background-image: url("./images/cover.png");
+    height:800px;
+}
+
+.handphone-image{
+    width:45%;
+    height:800px;
+    background-image: url("images/handphone.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:contain;
+    float:left;
+    display: none;
+}
+.home-text{
+    width: 100%;
+    text-align: center;
+    float: right;
+    background-color: transparent;
+    margin-top: 350px;
+}
+.home-text p:first-child{
+    font-size: 220%;
+}
+
+@media(min-width:992px) {
+    .handphone-image{
+        display: block;
+    }
+    .home-text{
+        width:53%;
+        padding-left: 2%;
+        text-align: left;
+    }
+}
+
+.home-paragraph{
+    margin-top: 20px;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+.features-sections {
+    background-color: #f9f9f9;
+    border-top: 3px #4bcaff solid;
+}
+.features-header{
+    line-height: 300%;
+    padding-top: 70px;
+    color:black;
+}
+.feature-item{
+    cursor:pointer;
+}
+.feature-item:hover .feature-pic{
+    background-color: #565656 !important;
+}
+.feature-item:hover h5{
+    color:#4bcaff;
+}
+.feature-item p{
+    line-height:150%;
+}
+
+.feature-pic{
+    width:150px;
+    height:150px;
+    background-color: #4bcaff;
+    margin: 35px auto 20px auto;
+    padding-top: 30px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 85px;
+}
+
+
+.section-video {
+    height:550px;
+}
+
+#prices{
+    height:704px;
+}
+.prices-header{
+    line-height: 300%;
+    padding-top: 70px;
+    color:black;
+    margin-bottom: 30px;
+}
+.price-item{
+    border-radius: 2%;
+    background-color: #F9F9F9;
+    margin-right:10px;
+    margin-left:10px;
+    color:#d7d7d7;
+    border: 1px solid #d7d7d7;
+}
+.price-item:hover{
+    transform: scale(1.04,1.1);
+    transition: all .4s ease-in-out;
+}
+
+.price-item-header{
+    height:70px;
+    line-height: 70px;
+}
+.price-item-number{
+    height:116px;
+    line-height: 116px;
+    font-size: 500%;
+    font-weight: bold;
+}
+.price-item-details {
+    height:226px;
+    padding-top: 20px;
+}
+.price-item-details p{
+    line-height: 200%;
+    margin-bottom: 40px;
+}
+.price-item-main {
+
+}
+
+.bg-green {
+    background-color: #7BCC6B;
+}
+.bg-main{
+    background-color: #00CAFF;
+}
+.bg-orange{
+    background-color: #FF7100;
+}
