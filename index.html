@@ -23,6 +23,9 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Google maps -->
+
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-toggleable-md" id="main-navbar">
@@ -164,7 +167,35 @@
         <button type="button" class="btn btn-outline-primary btn-lg ">DOWNLOAD</button>
     </section>
     <section id="contact" class="contact-section">
+        <iframe
+                width="100%"
+                height="680"
+                frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBy2wSm-zjlAKen0BSOByepF2CK__w6Fo8
+    &q=Robert+F.+Kennedy+Bridge,+New+York,+NY+10035,+USA" allowfullscreen>
+        </iframe>
+        <div class="container">
+            <form>
+                <h3>Contact</h3>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+
+                <label for="massege">Massege</label>
+                <textarea id="massege" name="subject" placeholder="Massege" style="height:200px"></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    <section class="copy-section">
+        <p>2013. All rights reserved.</p>
+        <p>Terms of Service | Privacy Policy</p>
     </section>
 </body>
 
