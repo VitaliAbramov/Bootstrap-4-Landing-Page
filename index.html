@@ -71,8 +71,8 @@
             <p class="home-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus
                 ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi
                 fringilla lacinia. Nullam plulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
-            <button type="button" class="btn btn-outline-primary btn-lg mr-5">DOWNLOAD</button>
-            <button type="button" class="btn btn-outline-primary btn-lg">LEARN MORE</button>
+            <button type="button" class="btn btn-outline-primary btn-lg mr-5 btn-primary-clear">DOWNLOAD</button>
+            <button type="button" class="btn btn-outline-primary btn-lg btn-primary">LEARN MORE</button>
         </div>
     </section>
     <section id="features" class="features-sections container-fluid">
@@ -164,17 +164,21 @@
     </section>
     <section id="download" class="download-section text-center p-5">
         <h1 class="pb-4">Do you Like this app?</h1>
-        <button type="button" class="btn btn-outline-primary btn-lg ">DOWNLOAD</button>
+        <button type="button" class="btn btn-lg btn-primary">DOWNLOAD NOW</button>
     </section>
     <section id="contact" class="contact-section">
-        <iframe
-                width="100%"
-                height="680"
-                frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBy2wSm-zjlAKen0BSOByepF2CK__w6Fo8
-    &q=Robert+F.+Kennedy+Bridge,+New+York,+NY+10035,+USA" allowfullscreen>
-        </iframe>
-        <div class="container">
+        <div class="maps">
+            <iframe
+                    width="100%"
+                    height="680"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBy2wSm-zjlAKen0BSOByepF2CK__w6Fo8
+        &q=Robert+F.+Kennedy+Bridge,+New+York,+NY+10035,+USA" allowfullscreen>
+            </iframe>
+        </div>
+        <div>
+            <div class="col-md-4 col-md-offset-4 col-sm-12 col-xs-12">
+                <div class="contact-form">
             <form>
                 <h3>Contact</h3>
                 <label for="fname">First Name</label>
@@ -191,11 +195,13 @@
 
                 <input type="submit" value="Send">
             </form>
+                </div>
+            </div>
         </div>
     </section>
     <section class="copy-section">
-        <p>2013. All rights reserved.</p>
-        <p>Terms of Service | Privacy Policy</p>
+        <p class="text-left">2013. All rights reserved.</p>
+        <p class="text-right">Terms of Service | Privacy Policy</p>
     </section>
 </body>
 
