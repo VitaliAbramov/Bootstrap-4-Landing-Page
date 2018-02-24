@@ -213,3 +213,12 @@ body {
 .bg-orange{
     background-color: #FF7100;
 }
+
+.download-section{
+    height: 210px;
+    background-color: #414042;
+    padding-bottom: inherit;
+}
+.contact-section{
+    
+}
